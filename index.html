@@ -39,173 +39,181 @@
             alt="Kira-Kira Juku"></a></h1>
 
       <!-- ハンバーガーボタン -->
-      <button type="button" class="hamburger_button">
-        <span class="hamburger_button_bar"></span>
-        <span class="hamburger_button_bar"></span>
-        <span class="hamburger_button_bar"></span>
+      <button type="button" class="hamburger-menu__button">
+        <span class="hamburger-menu__button-bar"></span>
+        <span class="hamburger-menu__button-bar"></span>
+        <span class="hamburger-menu__button-bar"></span>
       </button>
       <!-- ナビゲーション、ヘッダーメニュー -->
-      <div class="hamburger_menu hamburger_menu_container">
-        <ul class="hamburger_menu_list_group">
-          <li class="hamburger_menu_list"><a href="#point">選ばれる3つの理由</a></li>
-          <p class="underline"></p>
-          <li class="hamburger_menu_list"><a href="#course">コース・目的</a></li>
-          <p class="underline"></p>
-          <li class="hamburger_menu_list"><a href="#price">費用</a></li>
-          <p class="underline"></p>
-        </ul>
+      <div class="hamburger-menu hamburger_menu_container">
+        <div class="hamburger-menu__list-group">
+          <div class="hamburger-menu__list-item">
+            <i class="bi bi-arrow-right-short"></i>
+            <a href="#point">選ばれる3つの理由</a>
+          </div>
+          <div class="hamburger-menu__underline"></div>
+          <div class="hamburger-menu__list-item">
+            <i class="bi bi-arrow-right-short"></i>
+            <a href="#course">コース・目的</a>
+          </div>
+          <div class="hamburger-menu__underline"></div>
+          <div class="hamburger-menu__list-item">
+            <i class="bi bi-arrow-right-short"></i>
+            <a href="#price">費用</a>
+          </div>
+          <div class="hamburger-menu__underline"></div>
+        </div>
         <!-- ボタン -->
-        <a href="/entry" class="button button-white-blue">入学説明会に申し込む</a>
+        <a href="/entry" class="button button--white-blue">入学説明会に申し込む</a>
       </div>
     </header>
 
     <main>
       <!-- カバー -->
       <section class="cover">
-        <div class="contents_width">
-          <div class="cover_contents">
-            <div class="wrapper_container">
-              <img src="./assets/image/frame-left.png" art="">
-              <div class="wrapper_box">
-                <h3 class="wrapper_text1">難関大学の合格実績</h3>
-                <span class="no_pink">No.</span>
-                <span class="number_pink">1</span>
+        <div class="cover__contents-width">
+          <div class="cover__contents">
+            <div class="cover__wrapper-container">
+              <img src="./assets/image/frame-left.png" alt="黄色い左羽">
+              <div class="cover__wrapper-box">
+                <h3 class="cover__wrapper-text--title">難関大学の合格実績</h3>
+                <span class="cover__no-pink">No.</span>
+                <span class="cover__number-pink">1</span>
               </div>
-              <img src="./assets/image/frame-right.png" art="">
+              <img src="./assets/image/frame-right.png" alt="黄色い右羽">
             </div>
-            <p class="wrapper_text2">現役高校生・高卒生</p>
-            <p class="wrapper_text3">入学説明会の<br>お申し込み開始</p>
+            <p class="cover__wrapper-text--sub">現役高校生・高卒生</p>
+            <p class="cover__wrapper-text--highlight">入学説明会の<br>お申し込み開始</p>
           </div>
           <!-- ボタン -->
-          <div class="button_container">
-            <a href="/inquiry" class="button button-lawngreen">入学のお問い合わせ</a>
-            <a href="/freetrial" class="button button-yellow">無料体験に申し込む</a>
-            <a href="/request" class="button button-lightgreen">資料請求する</a>
+          <div class="button-container">
+            <a href="/inquiry" class="button button-container__button--lawngreen">入学のお問い合わせ</a>
+            <a href="/freetrial" class="button button-container__button--yellow">無料体験に申し込む</a>
+            <a href="/request" class="button button-container__button--lightgreen">資料請求する</a>
           </div>
         </div>
       </section>
 
       <!-- point -->
       <section class="point" id="point">
-        <h2 class="point_title">選ばれる<span class="number-pink1">3</span>つの理由</h2>
+        <h2 class="point__title">選ばれる<span class="point__number-pink--title">3</span>つの理由</h2>
 
-        <div class="point_container">
+        <div class="point__container">
           <!-- １つ目 -->
-          <div class="point_box">
-            <div class="point_img">
-              <img src="./assets/image/pht_reason01.jpg" art="">
+          <div class="point__box">
+            <div class="point__img">
+              <img src="./assets/image/pht_reason01.jpg" alt="女性の講師と女子生徒が横に並び笑顔で教えている">
             </div>
-            <div class="point_text_box">
-              <h3 class="point_text_number">Point<span class="number_pink2">1</span></h3>
-              <p class="point_text_title">実績のある講師陣だから安心</p>
-              <p class="point_text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+            <div class="point__text-box">
+              <h3 class="point__text-number">Point<span class="point__number-pink--sub">1</span></h3>
+              <p class="point__text-title">実績のある講師陣だから安心</p>
+              <p class="point__text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
             </div>
           </div>
           <!-- 2つ目 -->
-          <div class="point_box">
-            <div class="point_img">
-              <img src="./assets/image/pht_reason02.jpg" art="">
+          <div class="point__box">
+            <div class="point__img">
+              <img src="./assets/image/pht_reason02.jpg" alt="私服の男子生徒がオンライン授業を受けている">
             </div>
-            <div class="point_text_box">
-              <h3 class="point_text_number">Point<span class="number_pink2">2</span></h3>
-              <p class="point_text_title">オンラインにも対応だから、早送り巻き戻し視聴できる。</p>
-              <p class="point_text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+            <div class="point__text-box">
+              <h3 class="point__text-number">Point<span class="point__number-pink--sub">2</span></h3>
+              <p class="point__text-title">オンラインにも対応だから、早送り巻き戻し視聴できる。</p>
+              <p class="point__text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
             </div>
           </div>
           <!-- ３つ目 -->
-          <div class="point_box">
-            <div class="point_img">
-              <img src="./assets/image/pht_reason03.jpg" art="">
+          <div class="point__box">
+            <div class="point__img">
+              <img src="./assets/image/pht_reason03.jpg" alt="笑顔で男性教師が立ったまま女子生徒を教えている">
             </div>
-            <div class="point_text_box">
-              <h3 class="point_text_number">Point<span class="number_pink2">3</span></h3>
-              <p class="point_text_title">徹底した個別指導で、弱点を残さずそれぞれに合わせた大学受験対策。</p>
-              <p class="point_text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+            <div class="point__text-box">
+              <h3 class="point__text-number">Point<span class="point__number-pink--sub">3</span></h3>
+              <p class="point__text-title">徹底した個別指導で、弱点を残さずそれぞれに合わせた大学受験対策。</p>
+              <p class="point__text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
             </div>
           </div>
         </div>
       </section>
 
       <!-- 問い合わせ -->
-      <div class="btn_container">
-        <div class="btn_text_box">
-          <p class="btn_text">入学ご検討の方は、まずは入学説明会に</p>
-          <p class="btn_text">お越しください</p>
+      <div class="btn-container">
+        <div class="btn-container__text-box">
+          <p class="btn-container__text">入学ご検討の方は、まずは入学説明会に</p>
+          <p class="btn-container__text">お越しください</p>
         </div>
         <!-- ボタン -->
-        <a href="/entry" class="button button-blue">入学説明会に申し込む</a>
+        <a href="/entry" class="button button--blue">入学説明会に申し込む</a>
       </div>
 
       <!-- コース・目的 -->
       <section class="course" id="course">
-        <h2 class="course_title">コース・目的</h2>
+        <h2 class="course__title">コース・目的</h2>
 
         <!-- タブ -->
-        <div class="tab">
+        <div class="course__tab">
           <!-- タブナビゲーション -->
-          <div class="nav">
-            <button class="nav-link active" data-target="tab-1">学年別から選ぶ</button>
-            <button class="nav-link" data-target="tab-2">目的別から選ぶ</button>
+          <div class="course__tab-nav">
+            <button class="course__tab-link active" data-target="tab-1">学年別から選ぶ</button>
+            <button class="course__tab-link" data-target="tab-2">目的別から選ぶ</button>
           </div>
-
-          <div class="tab-content">
+          <div class="course__tab-content">
             <!-- タブ1 -->
-            <div class="tab-pane tab-1 active">
-              <div class="course-tab-content-item">
-                <img src="./assets/image/pht_cource01.jpg" alt="">
-                <div class="course-tab-content-title">
+            <div class="course__tab-pane tab-1 active">
+              <div class="course__tab-content-item">
+                <img src="./assets/image/pht_cource01.jpg" alt="外で私服の男性がまっすぐ前を向いている">
+                <div class="course__tab-content-title">
                   <i class="bi bi-arrow-right-short"></i>
                   <p>高校生</p>
                 </div>
               </div>
-              <div class="course-tab-content-item">
-                <img src="./assets/image/pht_cource02.jpg" alt="">
-                <div class="course-tab-content-title">
+              <div class="course__tab-content-item">
+                <img src="./assets/image/pht_cource02.jpg" alt="女子高生が机で自主学習をしている">
+                <div class="course__tab-content-title">
                   <i class="bi bi-arrow-right-short"></i>
                   <p>高校3年生</p>
                 </div>
               </div>
-              <div class="course-tab-content-item">
-                <img src="./assets/image/pht_cource03.jpg" alt="">
-                <div class="course-tab-content-title">
+              <div class="course__tab-content-item">
+                <img src="./assets/image/pht_cource03.jpg" alt="男子学生と女子学生が隣同士で座って学習し合っている">
+                <div class="course__tab-content-title">
                   <i class="bi bi-arrow-right-short"></i>
                   <p>高校2年生</p>
                 </div>
               </div>
-              <div class="course-tab-content-item">
-                <img src="./assets/image/pht_cource04.jpg" alt="">
-                <div class="course-tab-content-title">
+              <div class="course__tab-content-item">
+                <img src="./assets/image/pht_cource04.jpg" alt="座っている女子学生が笑顔で前を向いている">
+                <div class="course__tab-content-title">
                   <i class="bi bi-arrow-right-short"></i>
                   <p>高校1年生</p>
                 </div>
               </div>
             </div>
             <!-- タブ2 -->
-            <div class="tab-pane tab-2">
-              <div class="course-tab-content-item">
-                <img src="./assets/image/pht_cource05.jpg" alt="">
-                <div class="course-tab-content-title">
+            <div class="course__tab-pane tab-2">
+              <div class="course__tab-content-item">
+                <img src="./assets/image/pht_cource05.jpg" alt="東大門の風景">
+                <div class="course__tab-content-title">
                   <i class="bi bi-arrow-right-short"></i>
                   <p>難関大学・医学部合格を目指す</p>
                 </div>
               </div>
-              <div class="course-tab-content-item">
-                <img src="./assets/image/pht_cource06.jpg" alt="">
-                <div class="course-tab-content-title">
+              <div class="course__tab-content-item">
+                <img src="./assets/image/pht_cource06.jpg" alt="東大の銅像がある風景">
+                <div class="course__tab-content-title">
                   <i class="bi bi-arrow-right-short"></i>
                   <p>名門私立大学合格を目指す</p>
                 </div>
               </div>
-              <div class="course-tab-content-item">
-                <img src="./assets/image/pht_cource07.jpg" alt="">
-                <div class="course-tab-content-title">
+              <div class="course__tab-content-item">
+                <img src="./assets/image/pht_cource07.jpg" alt="大学キャンパスの建物の風景">
+                <div class="course__tab-content-title">
                   <i class="bi bi-arrow-right-short"></i>
                   <p>国公立大学合格を目指す</p>
                 </div>
               </div>
-              <div class="course-tab-content-item">
-                <img src="./assets/image/pht_cource08.jpg" alt="">
-                <div class="course-tab-content-title">
+              <div class="course__tab-content-item">
+                <img src="./assets/image/pht_cource08.jpg" alt="数人の外国人の学生が会話をしている">
+                <div class="course__tab-content-title">
                   <i class="bi bi-arrow-right-short"></i>
                   <p>海外の大学合格を目指す</p>
                 </div>
@@ -217,78 +225,78 @@
       </section>
 
       <!-- 問い合わせ -->
-      <div class="btn_container">
-        <div class="btn_text_box">
-          <p class="btn_text">入学ご検討の方は、まずは入学説明会に</p>
-          <p class="btn_text">お越しください</p>
+      <div class="btn-container">
+        <div class="btn-container__text-box">
+          <p class="btn-container__text">入学ご検討の方は、まずは入学説明会に</p>
+          <p class="btn-container__text">お越しください</p>
         </div>
         <!-- ボタン -->
-        <a href="/entry" class="button button-blue">入学説明会に申し込む</a>
+        <a href="/entry" class="button button--blue">入学説明会に申し込む</a>
       </div>
 
       <!-- 費用 -->
       <section class="price" id="price">
-        <h2 class="price_title">費用</h2>
+        <h2 class="price__title">費用</h2>
         <table>
           <!-- 見出し -->
           <thead>
             <tr>
               <th>
-                <div class="lecture_title">年間講数</div>
+                <div class="price__lecture-title">年間講数</div>
               </th>
               <th>
-                <div class="fee_title">年間授業料（税込み）</div>
+                <div class="price__fee-title">年間授業料（税込み）</div>
               </th>
             </tr>
           </thead>
           <!-- 内容 -->
           <tbody>
             <tr>
-              <td class="lectures">
-                <h3 class="lectures_number">5講</h3>
+              <td class="price__lectures">
+                <h3 class="price__lectures-number">5講</h3>
               </td>
-              <td class="price_text">
-                <p class="fee_number">24,500<span class="yen">円</span></p>
-              </td>
-            </tr>
-            <tr>
-              <td class="lectures">
-                <h3 class="lectures_number">10講</h3>
-              </td>
-              <td class="price_text">
-                <p class="fee_number">49,000<span class="yen">円</span></p>
+              <td class="price__price-text">
+                <p class="price__fee-number">24,500<span class="price__yen">円</span></p>
               </td>
             </tr>
             <tr>
-              <td class="lectures">
-                <h3 class="lectures_number">11講</h3>
+              <td class="price__lectures">
+                <h3 class="price__lectures-number">10講</h3>
               </td>
-              <td class="price_text">
-                <p class="fee_number">53,900<span class="yen">円</span></p>
-              </td>
-            </tr>
-            <tr>
-              <td class="lectures">
-                <h3 class="lectures_number">12講</h3>
-              </td>
-              <td class="price_text">
-                <p class="fee_number">58,800<span class="yen">円</span></p>
+              <td class="price__price-text">
+                <p class="price__fee-number">49,000<span class="price__yen">円</span></p>
               </td>
             </tr>
             <tr>
-              <td class="lectures">
-                <h3 class="lectures_number">22講</h3>
+              <td class="price__lectures">
+                <h3 class="price__lectures-number">11講</h3>
               </td>
-              <td class="price_text">
-                <p class="fee_number">107,800<span class="yen">円</span></p>
+              <td class="price__price-text">
+                <p class="price__fee-number">53,900<span class="price__yen">円</span></p>
               </td>
             </tr>
             <tr>
-              <td class="lectures">
-                <h3 class="lectures_number">24講</h3>
+              <td class="price__lectures">
+                <h3 class="price__lectures-number">12講</h3>
               </td>
-              <td class="price_text">
-                <p class="fee_number">117,600<span class="yen">円</span></p>
+              <td class="price__price-text">
+                <p class="price__fee-number">58,800<span class="price__yen">円</span></p>
+              </td>
+            </tr>
+            <tr>
+              <td class="price__lectures">
+                <h3 class="price__lectures-number">22講</h3>
+              </td>
+              <td class="price__price-text">
+                <p class="price__fee-number">107,800<span class="price__yen">円</span></p>
+              </td>
+            </tr>
+            <tr>
+              <td class="price__lectures">
+                <h3 class="price__lectures-number">24講</h3>
+              </td>
+              <td class="price__price-text">
+                <p class="price__fee-number">117,600<span class="price__yen">円</span></p>
               </td>
             </tr>
           </tbody>
@@ -296,28 +304,28 @@
       </section>
 
       <!-- 問い合わせ -->
-      <div class="btn_container">
-        <div class="btn_text_box">
-          <p class="btn_text">入学ご検討の方は、まずは入学説明会に</p>
-          <p class="btn_text">お越しください</p>
+      <div class="btn-container">
+        <div class="btn-container__text-box">
+          <p class="btn-container__text">入学ご検討の方は、まずは入学説明会に</p>
+          <p class="btn-container__text">お越しください</p>
         </div>
         <!-- ボタン -->
-        <a href="/entry" class="button button-blue">入学説明会に申し込む</a>
+        <a href="/entry" class="button button--blue">入学説明会に申し込む</a>
       </div>
     </main>
 
 
     <footer>
-      <div class="footer_img_box">
-        <div class="footer_img1">
-          <p class="footer_img_text">よくあるご質問</p>
+      <div class="footer__img-box">
+        <div class="footer__img--1">
+          <p class="footer__img-text">よくあるご質問</p>
         </div>
-        <div class="footer_img2">
-          <p class="footer_img_text">お近くの教室を探す</p>
+        <div class="footer__img--2">
+          <p class="footer__img-text">お近くの教室を探す</p>
         </div>
       </div>
-      <div class="footer_container">
-        <small class="footer_text">copyright© 2023 Kira-Kira Juku All Rights Reserved.</small>
+      <div class="footer__container">
+        <small class="footer__text">copyright© 2023 Kira-Kira Juku All Rights Reserved.</small>
       </div>
 
     </footer>
