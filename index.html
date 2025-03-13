@@ -7,12 +7,12 @@
     <title>入学説明会のお申し込み開始 | Kira-Kira Juku</title>
     <meta name="description" content="難関大学の合格実績No.1のKira-Kira Jukuが、現役高校生・高卒生向け入学説明会の申し込みを開始しました。">
 
-    <meta property="og:title" content="入学説明会のお申し込み開始 | Kira-Kira Juku" />
-    <meta property="og:description" content="難関大学の合格実績No.1のKira-Kira Jukuが、現役高校生・高卒生向け入学説明会の申し込みを開始しました。" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content=" https://example.com/" />
-    <meta property="og:image" content="https://example.com/画像のファイルパス" />
-    <meta property="og:site_name" content="Kira-Kira Juku" />
+    <meta property="og:title" content="入学説明会のお申し込み開始 | Kira-Kira Juku">
+    <meta property="og:description" content="難関大学の合格実績No.1のKira-Kira Jukuが、現役高校生・高卒生向け入学説明会の申し込みを開始しました。">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content=" https://example.com/">
+    <meta property="og:image" content="https://example.com/画像のファイルパス">
+    <meta property="og:site_name" content="Kira-Kira Juku">
 
 
     <!-- Google Fonts -->
@@ -35,24 +35,24 @@
   <body>
     <!-- ヘッダー -->
     <header class="header">
-      <h1 class="header-logo"><a href="./" class="header-logo-link"><img src="./assets/image/logo.svg.png"
+      <h1><a href="./"><img src="./assets/image/logo.svg.png"
             alt="Kira-Kira Juku"></a></h1>
 
       <!-- ハンバーガーボタン -->
-      <button type="button" class="hamburger-button">
-        <span class="hamburger-button-bar"></span>
-        <span class="hamburger-button-bar"></span>
-        <span class="hamburger-button-bar"></span>
+      <button type="button" class="hamburger_button">
+        <span class="hamburger_button_bar"></span>
+        <span class="hamburger_button_bar"></span>
+        <span class="hamburger_button_bar"></span>
       </button>
       <!-- ナビゲーション、ヘッダーメニュー -->
-      <div class="hamburger-menu hamburger-menu_container">
-        <ul class="hamburger-menu-list-group">
-          <li class="hamburger-menu-list"><a href="#point">選ばれる3つの理由</a></li>
-          <hr>
-          <li class="hamburger-menu-list"><a href="#course">コース・目的</a></li>
-          <hr>
-          <li class="hamburger-menu-list"><a href="#price">費用</a></li>
-          <hr>
+      <div class="hamburger_menu hamburger_menu_container">
+        <ul class="hamburger_menu_list_group">
+          <li class="hamburger_menu_list"><a href="#point">選ばれる3つの理由</a></li>
+          <p class="underline"></p>
+          <li class="hamburger_menu_list"><a href="#course">コース・目的</a></li>
+          <p class="underline"></p>
+          <li class="hamburger_menu_list"><a href="#price">費用</a></li>
+          <p class="underline"></p>
         </ul>
         <!-- ボタン -->
         <a href="/entry" class="button button-white-blue">入学説明会に申し込む</a>
@@ -67,7 +67,7 @@
             <div class="wrapper_container">
               <img src="./assets/image/frame-left.png" art="">
               <div class="wrapper_box">
-                <p class="wrapper_text1">難関大学の合格実績</p>
+                <h3 class="wrapper_text1">難関大学の合格実績</h3>
                 <span class="no_pink">No.</span>
                 <span class="number_pink">1</span>
               </div>
@@ -141,16 +141,16 @@
         <h2 class="course_title">コース・目的</h2>
 
         <!-- タブ -->
-        <div id="smartTab" class="tab">
+        <div class="tab">
           <!-- タブナビゲーション -->
-          <ul class="nav">
-            <li><a class="nav-link" href="#tab-1">学年別から選ぶ</a></li>
-            <li><a class="nav-link" href="#tab-2">目的別から選ぶ</a></li>
-          </ul>
+          <div class="nav">
+            <button class="nav-link active" data-target="tab-1">学年別から選ぶ</button>
+            <button class="nav-link" data-target="tab-2">目的別から選ぶ</button>
+          </div>
+
           <div class="tab-content">
             <!-- タブ1 -->
-            <div id="tab-1" class="tab-pane flex" role="tabpanel">
-              <!-- 1個目 -->
+            <div class="tab-pane tab-1 active">
               <div class="course-tab-content-item">
                 <img src="./assets/image/pht_cource01.jpg" alt="">
                 <div class="course-tab-content-title">
@@ -158,7 +158,6 @@
                   <p>高校生</p>
                 </div>
               </div>
-              <!-- 2個目 -->
               <div class="course-tab-content-item">
                 <img src="./assets/image/pht_cource02.jpg" alt="">
                 <div class="course-tab-content-title">
@@ -166,7 +165,6 @@
                   <p>高校3年生</p>
                 </div>
               </div>
-              <!-- 3個目 -->
               <div class="course-tab-content-item">
                 <img src="./assets/image/pht_cource03.jpg" alt="">
                 <div class="course-tab-content-title">
@@ -174,7 +172,6 @@
                   <p>高校2年生</p>
                 </div>
               </div>
-              <!-- 4個目 -->
               <div class="course-tab-content-item">
                 <img src="./assets/image/pht_cource04.jpg" alt="">
                 <div class="course-tab-content-title">
@@ -184,8 +181,7 @@
               </div>
             </div>
             <!-- タブ2 -->
-            <div id="tab-2" class="tab-pane flex" role="tabpanel">
-              <!-- 1個目 -->
+            <div class="tab-pane tab-2">
               <div class="course-tab-content-item">
                 <img src="./assets/image/pht_cource05.jpg" alt="">
                 <div class="course-tab-content-title">
@@ -193,7 +189,6 @@
                   <p>難関大学・医学部合格を目指す</p>
                 </div>
               </div>
-              <!-- 2個目 -->
               <div class="course-tab-content-item">
                 <img src="./assets/image/pht_cource06.jpg" alt="">
                 <div class="course-tab-content-title">
@@ -201,7 +196,6 @@
                   <p>名門私立大学合格を目指す</p>
                 </div>
               </div>
-              <!-- 3個目 -->
               <div class="course-tab-content-item">
                 <img src="./assets/image/pht_cource07.jpg" alt="">
                 <div class="course-tab-content-title">
@@ -209,7 +203,6 @@
                   <p>国公立大学合格を目指す</p>
                 </div>
               </div>
-              <!-- 4個目 -->
               <div class="course-tab-content-item">
                 <img src="./assets/image/pht_cource08.jpg" alt="">
                 <div class="course-tab-content-title">
@@ -220,6 +213,7 @@
             </div>
           </div>
         </div>
+
       </section>
 
       <!-- 問い合わせ -->
